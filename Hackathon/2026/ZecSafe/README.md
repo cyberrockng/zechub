@@ -39,6 +39,11 @@ Check it on any explorer:
   contacted.
 - **Human broadcast gate.** Software prepares, signs, proves, and combines the
   PCZT; releasing funds to mainnet requires explicit human approval.
+- **Attack it yourself, in your browser.** The live demo page includes a
+  Tamper Lab: the zecsafe-proof-v1 verifier reruns client-side (WebCrypto
+  SHA-256 over the canonical bundle) against a local copy of the recorded
+  proof — flip a txid character, swap a signer fingerprint, claim a 3-of-3
+  threshold, or edit the JSON by hand, and watch the gates fail.
 - **Tamper-evident public proof.** Every run emits a hash-bound
   `zecsafe-proof-v1` bundle with a one-command verifier and a tamper
   demonstration. Recipient, amount, and memo are withheld from public
