@@ -50,7 +50,8 @@ Check it on any explorer:
 git clone https://github.com/cyberrockng/zecsafe
 cd zecsafe
 
-# Watch the whole pipeline run live (stops at the human broadcast gate):
+# Re-verify every gate of the pipeline against the recorded run (hashes
+# recomputed live; stops at the human broadcast-approval gate):
 make proof-run-dry
 
 # Verify the recorded mainnet run end to end:
